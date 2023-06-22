@@ -1,10 +1,14 @@
 import './App.scss';
+import {Routes, Route} from 'react-router-dom'; 
+import Layout from './components/Layouts';
 
 function App() {
   return (
-    <div className="App">
-      animated
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout/>}/>
+      </Routes>
+    </>
   );
 }
 
