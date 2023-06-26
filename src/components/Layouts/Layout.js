@@ -3,6 +3,7 @@ import Sidebar from '../Sidebar/Sidebar';
 import './Layout.scss';
 
 import React from 'react'
+import Home from '../Home/Home';
 
  function Layout() {
   return (
@@ -12,6 +13,7 @@ import React from 'react'
         <span className="tags top-tags">&lt;body&gt;</span>
 
         <Outlet/>
+        <Home/>
 
         <span className="tags bottom-tags">
           &lt;/body&gt;
